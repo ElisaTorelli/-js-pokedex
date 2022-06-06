@@ -1,0 +1,73 @@
+/* GENERAL SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --electric: '#FCF7DE';
+    --water: '#DEF3FD';
+    --ground: '#f4e7da';
+    --rock: '#d5d5d4';
+    --fairy: '#fceaff';
+    --poison: '#98d7a5';
+    --bug: '#f8d5a3';
+    --dragon: '#97b3e6';
+    --psychic: '#eaeda1';
+    --flying: '#F5F5F5';
+    --fighting: '#E6E0D4';
+    --normal: '#F5F5F5';
+}
+
+body{
+    background: rgb(214,213,219);
+    background: linear-gradient(53deg, rgba(214,213,219,1) 4%, rgba(223,223,207,1) 42%, rgba(238,238,188,1) 63%);
+}
+
+h1{
+    text-align: center;
+    padding-top: 32px;
+}
+
+.main__container{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* CARDS SETTINGS */
+.pokemonCard{
+    background-color: rgb(169, 144, 192);
+    box-shadow: 2px 5px 21px 5px rgba(31, 30, 30, 0.36);
+    height: 220px;
+    width: 120px;
+    border-radius: 12px;
+    margin: 24px;
+    text-align: center;
+}
+
+.pokemonCard img{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.card__info{
+    padding-top: 32px;
+}
+
+.card__info span{
+    border-radius: 8px;
+    background-color: rgba(211, 211, 211, 0.479);
+    padding: 2px 8px;
+}
+
+.card__info h4{
+    padding: 8px;
+    text-transform: capitalize;
+}
